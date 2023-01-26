@@ -14,7 +14,7 @@ cm_display = mt.ConfusionMatrixDisplay(confusion_matrix = confusion_matrix, disp
 
 # visualise display
 cm_display.plot()
-# plt.show()
+plt.show()
 
 Accuracy = mt.accuracy_score(actual, predicted)
 print("Accuracy: ", Accuracy)
